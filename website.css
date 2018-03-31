@@ -1,0 +1,162 @@
+body {
+	width: 1000px;
+	margin: 0px auto;
+
+}
+#boss{
+	width: 1000px;
+	height: 80px;
+	background: white;
+}
+#top {
+	width: 1000px;
+	height: 55px;
+	background: #8A45C0;
+}
+#top ul {
+	margin: 0px;
+	padding: 0px;
+}
+#top ul li {
+	list-style: none;
+	float: left; 
+}
+#top ul li a {
+	font-size: 18px;
+	text-decoration: none;
+	display: block;
+	height: 55px;
+	width: 125px;
+	line-height: 55px;
+	color: white;
+	text-align: center;
+	border-right: 1px solid #f1f1f1;
+}
+#top ul li a.active {
+	background: #44D52F;
+}
+#top ul li input {
+	width: 60px;
+	padding: 0px 40px;
+	color: gray;
+	background-image: url('image/search1.png');
+	background-repeat: no-repeat;
+	background-position: 12px 10px;
+	height: 37px;
+}
+#top ul li a:hover {
+	background: #44D52F;
+}
+#Banner {
+	width: 998px;
+	height: 300px;
+	border: 1px solid blue;
+}
+#Banner img {
+	width: 998px;
+	height: 300px;
+}
+#Main #left {
+	width: 700px;
+	background: #ECF9F0;
+	float: left;
+	height: auto;
+}
+#Main #right {
+	margin-left: 5px;
+	width: 295px;
+	height: auto;
+	
+	min-height: 400px;
+	float: left;
+	
+}
+#Footer {
+	background: #45B728;
+	width: 979px;
+	height: auto;
+	border: 1px solid #467DDC;
+	text-align: left;
+	color: white;
+	clear: left;
+	line-height: 20px;
+	padding-left: 20px;
+}
+#Main #left ul li img {
+	height: auto;
+	width: auto;
+		
+}
+#Main #left #phanhoi img {
+	height: 200px;
+	width:400px;
+	border: 1px  solid blue;
+	align-self: center;
+		
+}
+#Main #left ul {
+	margin: 0px;
+	padding: 0px;
+}
+#Main #left ul li {
+ 	list-style: none;
+ 	clear: left;
+ 	border-bottom: 1px solid;
+	text-decoration: none;
+	color: #196D12;
+	text-indent: 10px;	
+}
+#Main #left ul li h1{
+	text-align: center;
+	}
+#Main #left ul li h3{
+	text-align: center;
+	}
+#Main #left ul img {
+	width: 700px;
+	height: 300px;
+
+}
+#Main {
+	margin-top: 5px;
+}
+#Main #right #menu_right ul {
+	margin: 0px;
+	padding: 0px;
+}
+#Main #right #menu_right ul li {
+	list-style: none;
+
+}
+#Main #right #menu_right h2 {
+	height: 40px;
+	margin-top: 0px;
+    background: #194d58;	
+	line-height: 40px;
+	color: white;
+	text-indent: 15px;
+	text-indent: 30px;
+}
+
+#Main #right #menu_right ul h3 li a {
+	color: #44EA1B;
+	display: block;
+	text-decoration: none;
+	line-height: 30px;
+	border: 1px solid black;	
+	padding: 0px 20px 0px 20px;
+	height: 40px;
+
+}
+#Main #right #menu_right ul h3 li a:hover {
+	color: blue;
+}
+#Main #right #botton {
+	height: auto;
+	border: 1px solid #467DDC;
+}
+#Main #right #botton img {
+	height: 250px;
+	width: 290px;
+
+}
